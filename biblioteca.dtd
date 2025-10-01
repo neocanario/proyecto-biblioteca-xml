@@ -1,0 +1,27 @@
+<!ELEMENT library (manager, employees, books, offers)>
+
+<!ELEMENT manager (name, phone, mail)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT mail (#PCDATA)>
+
+<!ELEMENT employees (employee*)>
+<!ELEMENT employee (name_employee, birthday)>
+<!ATTLIST employee dni CDATA #REQUIRED>
+<!ELEMENT name_employee (#PCDATA)>
+<!ELEMENT birthday (#PCDATA)>
+
+<!ELEMENT books (book*)>
+<!ELEMENT book (title, author, date, price)>
+<!ATTLIST book id ID #REQUIRED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+
+<!ELEMENT price (#PCDATA)>
+<!ATTLIST price currency CDATA #REQUIRED>
+
+<!ELEMENT offers (offer*)>
+<!ELEMENT offer (product, price, discount)>
+<!ELEMENT product (#PCDATA)>
+<!ELEMENT discount (#PCDATA)>

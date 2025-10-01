@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="biblioteca.dtd" type="application/xml"?>
+<library>
+    <manager>
+        <name>Joel Diaz</name>
+        <phone>644736829</phone>
+        <mail>joel_diaz@gmail.com</mail>
+    </manager>
+
+    <employees>
+        <employee dni="768945F">
+            <name_employee>Juan Gonzalez</name_employee>
+            <birthday>2000/09/19</birthday>
+        </employee>
+        <employee dni="334769D">
+            <name_employee>Roberto Herrera</name_employee>
+            <birthday>2001/10/20</birthday>
+        </employee>
+    </employees>
+
+    <books>
+        <book id="bk01">
+            <title>Deep work</title>
+            <author>Cal Newport</author>
+            <date>2022/02/02</date>
+            <price currency="USD">15.00</price>
+        </book>
+        <book id="bk02">
+            <title>Psychology of money</title>
+            <author>Morgan Housel</author>
+            <date>2020/09/08</date>
+            <price currency="USD">18.00</price>
+        </book>
+        <book id="bk03">
+            <title>Rich dad Poor dad</title>
+            <author>Robert T. Kiyosaki</author>
+            <date>2022/04/05</date>
+            <price currency="USD">11.00</price>
+        </book>
+    </books>
+
+    <offers>
+        <offer>
+            <product>Rich dad Poor dad</product>
+            <price currency="USD">11.00</price>
+            <discount>10%</discount>
+        </offer>
+    </offers>
+</library>
